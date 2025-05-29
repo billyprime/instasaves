@@ -26,5 +26,5 @@ Run `pip install -r requirements.txt`  per usual.  (You probably will want a vir
 
 `python scrape.py /path/to/your_instagram_activity/saved/saved_collections.html /my/output/directory/`
 
-If you have lots of saved posts, you may want to run this 
+If you have lots of saved posts, you may need to run this a couple of times in a row, just in case of any network weirdnesses that might have exceeded the built-in retries.
 
