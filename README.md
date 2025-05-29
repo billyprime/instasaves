@@ -5,7 +5,7 @@ To use this script, you'll need to [download a copy of your data from Instagram]
 
 ## Details
 
-When downloading your "takeout data" from IG, it does not make copies of your saved posts.  This script will download images you've saved.  
+When downloading your "takeout data" from IG, it does not make copies of your saved posts.  This script will download images you've saved, grouped into folders matching your "collection" names.
 
 Note that there are some significant restrictions here:
 
@@ -26,5 +26,5 @@ Run `pip install -r requirements.txt`  per usual.  (You probably will want a vir
 
 `python scrape.py /path/to/your_instagram_activity/saved/saved_collections.html /my/output/directory/`
 
-If you have lots of saved posts, you may need to run this a couple of times in a row, just in case of any network weirdnesses that might have exceeded the built-in retries.
+If you have lots of saved posts, you may need to run this a couple of times in a row, just in case of any network weirdnesses that might have exceeded the built-in retries.  The script will skip any posts where it detects a matching file in the specified output directory.
 
