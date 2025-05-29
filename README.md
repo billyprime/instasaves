@@ -5,7 +5,7 @@ To use this script, you'll need to [download a copy of your data from Instagram]
 
 ## Details
 
-When downloading your "takeout data" from IG, it does not make copies of your saves posts.  This script will download images you've saved.  
+When downloading your "takeout data" from IG, it does not make copies of your saved posts.  This script will download images you've saved.  
 
 Note that there are some significant restrictions here:
 
